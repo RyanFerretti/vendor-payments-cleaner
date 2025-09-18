@@ -1,0 +1,18 @@
+[project]
+name = "payments-converter"
+version = "0.1.0"
+description = "Convert payment information files per business rules."
+requires-python = ">=3.10"
+dependencies = [
+  "pandas>=2.2",
+  "openpyxl>=3.1",
+  "xlrd>=2.0",
+  "streamlit>=1.38",
+]
+
+[tool.uv]
+dev-dependencies = [
+  "pytest>=8.0",
+]
+
+

@@ -1,0 +1,33 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg-info/
+.eggs/
+.build/
+.dist/
+*.log
+
+# Environments
+.venv/
+venv/
+ENV/
+
+# macOS
+.DS_Store
+
+# CSV and Excel artifacts
+*.csv
+*.xls
+*.xlsx
+
+# Streamlit
+.streamlit/
+**/.streamlit/
+
+# pytest cache
+.pytest_cache/
+
+# uv
+.uv/
